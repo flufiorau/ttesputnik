@@ -1,0 +1,15 @@
+<mat-card-subtitle>
+  <h2>Select a string to change font size </h2>
+</mat-card-subtitle>
+<mat-card-content>
+  <div class="mat-card">
+    <div class="spinner" *ngIf="loading">
+      <mat-spinner></mat-spinner>
+    </div>
+
+    <div [innerHTML]="pattern.value.template | saveFullHtml" id="pattern">
+    </div>
+    <ng-container #panelForChangeTextAndFontSizeComponent></ng-container>
+
+  </div>
+</mat-card-content>

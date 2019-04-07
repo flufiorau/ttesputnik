@@ -1,0 +1,15 @@
+.patterns-list {
+  max-width: 400px;
+  margin: auto;
+}
+
+
+table {
+  width: 100%;
+  max-width: 400px;
+}
+
+td.mat-cell, th.mat-header-cell {
+  text-align: center;
+  padding: 20px !important;
+}

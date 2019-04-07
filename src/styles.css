@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.template, .container, .editable {
+  padding: 10px;
+  line-height: 20px;
+}
+
+.container, .editable {
+  margin: 10px;
+}
+
+.template {
+  background-color: rgba(127, 127, 127, .2);
+}
+
+.container {
+  background-color: rgba(127, 127, 127, .5);
+}
+
+.editable {
+  background-color: rgba(127, 127, 127, .8);
+}
+
+.spinner {
+  position: absolute;
+  top: 50px;
+  left: calc(50vw - 65px);
+}
